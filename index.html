@@ -10,21 +10,21 @@
   <button onclick="getPrediction()">Predict</button>
   <p id="result"></p>
 
-  <script>
+    <script>
     async function getPrediction() {
       const article = document.getElementById("article").value;
-
-      const response = await fetch("https://7bcb-35-221-200-179.ngrok-free.app", {
+      // Make sure to use /predict endpoint!
+      const response = await fetch("https://7bcb-35-221-200-179.ngrok-free.app/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({ article })
       });
-
+  
       const data = await response.json();
       document.getElementById("result").innerText = "Prediction: " + data.result;
     }
-  </script>
+</script>
 </body>
 </html>
