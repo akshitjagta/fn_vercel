@@ -127,12 +127,15 @@ textarea:hover{
     height: 0px;
     font-size: 62px;
     margin-bottom: 100px;
+    margin-top: 0px;
+    height: 10px;
 }
 
 #result{
     font-size: 62px;
     text-align: center;
     font-family: "Arvo", serif;
+    transition: 0.75s all ease;
 }
 
 #result:hover{
