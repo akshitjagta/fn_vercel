@@ -115,3 +115,16 @@ textarea:hover{
     justify-content: center; 
     align-items: center;           
 }
+
+
+.resultcont{
+    display: flex;
+    height: 200px;
+    justify-content: center; 
+    align-items: center;    
+    font-family: "Arvo", serif;   
+}
+
+#result{
+    font-family: "Arvo", serif;
+}
