@@ -137,6 +137,7 @@ textarea:hover{
     text-align: center;
     font-family: "Arvo", serif;
     transition: 0.75s all ease;
+    margin-bottom: 200px;
 }
 
 #result:hover{
