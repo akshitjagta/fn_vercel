@@ -128,12 +128,13 @@ textarea:hover{
     font-size: 62px;
     margin-bottom: 100px;
 }
-.resultcont:hover{
-    font-size: 72px;
-}
 
 #result{
     font-size: 62px;
     text-align: center;
     font-family: "Arvo", serif;
+}
+
+#result:hover{
+    font-size: 72px;
 }
