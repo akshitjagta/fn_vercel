@@ -1,7 +1,7 @@
 body{
     color: white;
     min-height: 100vh;
-    background: linear-gradient(0deg, #000000, #1b1b1b, #1d1d1d, #000000);
+    background: linear-gradient(0deg, #000000, #1b1b1b, #000000, #000000);
     background-size: 400% 400%;
     animation: gradientBG 8s ease infinite;
 }
@@ -126,8 +126,11 @@ textarea:hover{
     font-family: "Arvo", serif; 
     height: 0px;
     font-size: 62px;
+    margin-bottom: 100px;
 }
-
+.resultcont:hover{
+    font-size: 72px;
+}
 
 #result{
     font-size: 62px;
