@@ -123,10 +123,14 @@ textarea:hover{
     justify-content: center; 
     align-items: center;
     text-align: center;
-    font-family: "Arvo", serif;   
+    font-family: "Arvo", serif; 
+    height: 0px;
+    font-size: 62px;
 }
 
+
 #result{
+    font-size: 62px;
     text-align: center;
     font-family: "Arvo", serif;
 }
