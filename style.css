@@ -132,7 +132,7 @@ textarea:hover{
 }
 
 #result{
-    font-size: 62px;
+    font-size: 32px;
     text-align: center;
     font-family: "Arvo", serif;
     transition: 0.75s all ease;
