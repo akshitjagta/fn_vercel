@@ -121,10 +121,12 @@ textarea:hover{
     display: flex;
     height: 200px;
     justify-content: center; 
-    align-items: center;    
+    align-items: center;
+    text-align: center;
     font-family: "Arvo", serif;   
 }
 
 #result{
+    text-align: center;
     font-family: "Arvo", serif;
 }
