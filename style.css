@@ -6,6 +6,10 @@ body{
     animation: gradientBG 8s ease infinite;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 75% 00%; }
@@ -60,6 +64,8 @@ textarea{
     transition: 0.5s all ease;
     caret-shape:underscore;
     caret-color: white;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
    
 }
 
@@ -83,8 +89,9 @@ textarea:hover{
     height: 150px;
 }
 
-
-
+textarea::-webkit-scrollbar {
+  display: none;
+}
 
 .predict{
     color: white;
@@ -143,3 +150,4 @@ textarea:hover{
 #result:hover{
     font-size: 60px;
 }
+
