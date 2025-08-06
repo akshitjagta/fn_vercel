@@ -162,8 +162,9 @@ textarea::-webkit-scrollbar {
 #description{
     
     font-size: 26px;
-    margin-top: 20px;
+    margin-top: 50px;
     font-family: "Arvo", serif;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
 }
+
