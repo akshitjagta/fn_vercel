@@ -36,7 +36,7 @@ body::selection{
 
 
 #heading2{
-    font-size: 28px;
+    font-size: 22px;
     margin-top: 10px;
     font-family: "Arvo", serif;
     font-weight: 400;
@@ -158,3 +158,4 @@ textarea::-webkit-scrollbar {
     font-weight: 400;
     text-align: center;
 }
+
