@@ -159,3 +159,11 @@ textarea::-webkit-scrollbar {
     text-align: center;
 }
 
+#description{
+    
+    font-size: 26px;
+    margin-top: 20px;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    text-align: left;
+}
